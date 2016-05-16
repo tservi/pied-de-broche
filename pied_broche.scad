@@ -10,20 +10,20 @@ union()
                 union() 
                 {
                     sphere(10);
-                    translate([25,0,0]) cube([50,50,20],true);
+                    translate([25,0,10]) cube([70,50,20],true);
                 };
             translate( [0,0,325] ) 
                 union() 
                 {
                     sphere(10);
-                    translate([25,0,0]) cube([50,50,20],true);
+                    translate([25,0,10]) cube([70,50,20],true);
                 };
             
             translate( [0,0,450] ) 
                 union() 
                 {
                     sphere(10);
-                    translate([25,0,0]) cube([50,50,20],true);
+                    translate([25,0,10]) cube([70,50,20],true);
                 };
             
         }
@@ -35,9 +35,9 @@ union()
         difference()
         {
                 cube([1.5,25,1000],true);
-                translate( [0,0,200] ) cube([30,30,20],true);
-                translate( [0,0,325] ) cube([30,30,20],true);
-                translate( [0,0,450] ) cube([30,30,20],true);
+                translate( [0,0,210] ) cube([30,30,20],true);
+                translate( [0,0,335] ) cube([30,30,20],true);
+                translate( [0,0,460] ) cube([30,30,20],true);
             
         };
     
